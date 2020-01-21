@@ -1,0 +1,38 @@
+.link {
+  color: red;
+  background-color: grey; }
+
+.start, .link {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  padding: 5px; }
+
+#link1 {
+  width: 100px;
+  height: 100px; }
+
+.start:hover, .link:hover {
+  transform: rotate(180deg);
+  transition: 2s; }
+
+#link1:hover {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  color: red; }
+
+#link3:hover {
+  font-size: 3em;
+  transition: 2s;
+  width: 100px;
+  height: 100px;
+  background-color: red; }
+
+#link4:hover {
+  color: green;
+  transition: 5s; }
+
+/*# sourceMappingURL=file.css.map */

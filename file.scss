@@ -1,0 +1,64 @@
+$font-stack: Helvetica, sans-serif;
+$pcolor: red;
+$bcolor:grey;
+$bcolor2:blue;
+$swidht:150px;
+$sheight:150px;
+$endwidht:300px;
+$endheight:300px;
+$endwidht2:100px;
+$endheight2:100px;
+$transform:rotate(180deg);
+$transition: width 3s, height 3s, transform 3s;
+$border:2px solid black;
+$padding:10px;
+$margin:5px;
+$font-size:3em;
+$transition: 2s;
+$transition2: 5s;
+$color2:green;
+$colorr:red;
+
+.link {
+ color: $pcolor;
+ background-color: $bcolor;
+ @extend .start;
+}
+
+.start{
+	border:$border;
+	padding: $padding;
+ 	margin: $margin;
+	width: $swidht;
+ 	height: $sheight;
+ 	padding:$margin;
+}
+
+#link1{
+	width: $endwidht2;
+	height: $endheight2;
+}
+
+.start:hover{
+	transform: $transform;
+ 	transition: $transition;
+}
+
+#link1:hover {
+	background-color: $bcolor2;
+	width: $endwidht;
+	height: $endheight;
+	color:red;
+}
+
+#link3:hover {
+	font-size: $font-size;
+	transition: $transition;
+	width: $endwidht2;
+	height: $endheight2;
+	background-color: $colorr;
+}
+#link4:hover {
+color: $color2;
+transition: $transition2;
+}
